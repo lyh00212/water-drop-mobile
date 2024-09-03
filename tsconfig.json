@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "lib": ["esnext", "dom"],
+        "baseUrl": ".", // 设置基本目录为当前目录
+        "paths": {
+            "@/*": ["src/*"] // 设置 src 的别名为 @
+        }
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"],
+    "exclude": ["node_modules"]
+}
