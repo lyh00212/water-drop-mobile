@@ -15,7 +15,15 @@
     "antd-mobile": "^5.37.1",
     "graphql": "^16.9.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "antd-mobile-icons": "^0.3.0",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "react-router-dom": "^6.7.0",
+    "react-svg": "^16.1.7",
+    "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "@apollo/server": "^4.11.0",
@@ -37,6 +45,12 @@
     "less": "^4.2.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "@testing-library/react": "^14.0.0",
+    "@types/lodash": "^4.14.194",
+    "@types/md5": "^2.3.2",
+    "@types/node": "^20.2.5",
+    "jsdom": "^22.1.0",
+    "postcss-px-to-viewport": "^1.1.1"
   }
 }
